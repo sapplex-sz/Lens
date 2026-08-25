@@ -2,7 +2,18 @@
   "name": "lens",
   "private": true,
   "version": "1.0.0",
+  "license": "MIT",
+  "author": "sapplex-sz",
   "type": "module",
+  "description": "Phone-first GPT-Image2 case gallery. Browse cases, copy prompts, save favorites locally.",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sapplex-sz/Lens.git"
+  },
+  "bugs": {
+    "url": "https://github.com/sapplex-sz/Lens/issues"
+  },
+  "homepage": "https://github.com/sapplex-sz/Lens#readme",
   "scripts": {
     "dev": "vite",
     "build": "vite build",

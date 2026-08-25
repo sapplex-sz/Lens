@@ -1,0 +1,39 @@
+Lens
+Copyright (c) 2026 sapplex-sz
+Licensed under the MIT License. See LICENSE.
+
+This project is an independent companion client. It is not affiliated with,
+endorsed by, or maintained by the original authors of awesome-gpt-image-2.
+
+------------------------------------------------------------------------------
+Upstream data and assets (MIT)
+------------------------------------------------------------------------------
+
+Lens loads case images, prompts, categories, and industrial templates at
+runtime from the MIT-licensed project:
+
+  awesome-gpt-image-2
+  Copyright (c) 2026 freestylefly
+  https://github.com/freestylefly/awesome-gpt-image-2
+  License: MIT (see THIRD_PARTY/awesome-gpt-image-2.LICENSE)
+
+The MIT License requires that the above copyright notice and permission
+notice be included in all copies or substantial portions of that Software.
+This NOTICE, the copied license file, and the Attribution section of the
+README are provided to satisfy that condition.
+
+Individual gallery cases may additionally credit community authors (X / Twitter
+posts, GitHub comments, and other public sources). Those credits belong to
+their original authors. Lens does not claim ownership of third-party prompts
+or generated images.
+
+See also the upstream disclaimer:
+https://github.com/freestylefly/awesome-gpt-image-2/blob/main/docs/disclaimer.md
+
+------------------------------------------------------------------------------
+Runtime dependencies (not vendored)
+------------------------------------------------------------------------------
+
+React, react-dom, and Vite are MIT-licensed.
+lucide-react is ISC-licensed.
+jsDelivr is used only as a public CDN for upstream data files.
