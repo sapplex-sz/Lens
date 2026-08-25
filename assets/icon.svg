@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1024" height="1024" viewBox="0 0 1024 1024" role="img" aria-label="Lens">
+  <rect width="1024" height="1024" rx="224" fill="#0B0B0D"/>
+  <circle cx="512" cy="512" r="290" fill="none" stroke="#E4DDD2" stroke-width="56"/>
+  <circle cx="512" cy="512" r="168" fill="none" stroke="#E4DDD2" stroke-width="28"/>
+  <circle cx="512" cy="512" r="46" fill="#E4DDD2"/>
+  <circle cx="404" cy="404" r="36" fill="#F3F1EC" fill-opacity="0.55"/>
+</svg>

@@ -1,8 +1,12 @@
-# Lens
+<h1 align="center">Lens</h1>
 
-[English](./README.en.md) · 简体中文
+<p align="center"><strong>GPT-Image2 手机图鉴</strong></p>
 
-<p>
+<p align="center">
+  <a href="./README.en.md">English</a> · 简体中文
+</p>
+
+<p align="center">
   <a href="./LICENSE"><img src="https://img.shields.io/badge/license-MIT-blue.svg" alt="MIT License"></a>
   <a href="https://github.com/freestylefly/awesome-gpt-image-2"><img src="https://img.shields.io/badge/data-awesome--gpt--image--2-violet.svg" alt="Data from awesome-gpt-image-2"></a>
   <a href="https://github.com/sapplex-sz/Lens"><img src="https://img.shields.io/badge/react-19-61dafb.svg" alt="React 19"></a>
@@ -39,6 +43,21 @@ npm run dev
 npm run build      # 生产构建
 npm run preview    # 预览构建结果
 ```
+
+## Android / iOS
+
+同一套图鉴界面，用原生 WebView 包成 App。工程在 [`native/`](./native/)。
+
+| 平台 | 打开方式 | 包名 |
+| --- | --- | --- |
+| [Android](./native/android/README.md) | Android Studio 打开 `native/android` | `com.sapplex.lens` |
+| [iOS](./native/ios/README.md) | 在 Mac 上用 Xcode 打开 `native/ios/Lens.xcodeproj` | `com.sapplex.lens` |
+
+```bash
+npm run native:prepare   # 构建网页并同步到两个原生工程的 www 目录
+```
+
+Android 可直接用 Android Studio 跑模拟器或真机。iOS 必须在 macOS + Xcode 上签名；本仓库不包含已签名 IPA。上架 Play / App Store 需要你自己的开发者账号和证书。
 
 ## 数据来源
 

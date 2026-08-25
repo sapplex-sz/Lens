@@ -1,0 +1,5 @@
+build/
+DerivedData/
+*.xcuserstate
+Lens.xcodeproj/xcuserdata/
+Lens.xcodeproj/project.xcworkspace/xcuserdata/

@@ -17,7 +17,10 @@
   "scripts": {
     "dev": "vite",
     "build": "vite build",
-    "preview": "vite preview"
+    "preview": "vite preview",
+    "native:sync": "node scripts/sync-native.mjs",
+    "native:prepare": "npm run build && node scripts/sync-native.mjs",
+    "icons": "python3 scripts/generate-icons.py"
   },
   "dependencies": {
     "lucide-react": "^0.561.0",

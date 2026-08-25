@@ -1,8 +1,12 @@
-# Lens
+<h1 align="center">Lens</h1>
 
-English · [简体中文](./README.md)
+<p align="center"><strong>Phone-first GPT-Image2 gallery</strong></p>
 
-<p>
+<p align="center">
+  English · <a href="./README.md">简体中文</a>
+</p>
+
+<p align="center">
   <a href="./LICENSE"><img src="https://img.shields.io/badge/license-MIT-blue.svg" alt="MIT License"></a>
   <a href="https://github.com/freestylefly/awesome-gpt-image-2"><img src="https://img.shields.io/badge/data-awesome--gpt--image--2-violet.svg" alt="Data from awesome-gpt-image-2"></a>
   <a href="https://github.com/sapplex-sz/Lens"><img src="https://img.shields.io/badge/react-19-61dafb.svg" alt="React 19"></a>
@@ -39,6 +43,21 @@ Open the local URL printed by Vite.
 npm run build      # production build
 npm run preview    # preview the build
 ```
+
+## Android / iOS
+
+The same gallery, wrapped in a native WebView. Projects live under [`native/`](./native/).
+
+| Platform | How to open | Bundle ID |
+| --- | --- | --- |
+| [Android](./native/android/README.md) | Android Studio → `native/android` | `com.sapplex.lens` |
+| [iOS](./native/ios/README.md) | Xcode on macOS → `native/ios/Lens.xcodeproj` | `com.sapplex.lens` |
+
+```bash
+npm run native:prepare   # build the web app and copy it into both www folders
+```
+
+Run Android from Android Studio on an emulator or device. iOS must be signed in Xcode on a Mac; this repository does not include a signed IPA. Play Store / App Store submission needs your own developer account.
 
 ## Data source
 
